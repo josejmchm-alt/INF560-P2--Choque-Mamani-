@@ -1,0 +1,49 @@
+/* TABLET */
+@media (max-width: 768px) {
+
+    .nav-links {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: var(--color-primary);
+        flex-direction: column;
+        width: 200px;
+        display: none;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .hero-text h2 {
+        font-size: 2rem;
+    }
+}
+
+/* MÓVIL */
+@media (max-width: 480px) {
+
+    .hero {
+        height: 70vh;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+/* PANTALLAS GRANDES */
+@media (min-width: 1200px) {
+
+    .hero-text h2 {
+        font-size: 4rem;
+    }
+}
